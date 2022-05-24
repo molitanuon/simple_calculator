@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(131, 131, 211);
+}
+
+p{
+    font-family: 'Rockwell';
+    margin: center;
+    text-align: center;
+}
+
+.border{
+    background-color: rgb(238, 146, 146);
+    /* center the div */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+
+    /* sizing */
+    height: 90%;
+    width: 70%; 
+    border-radius: 14%;
+
+    box-shadow: 5px 10px #312323;
+}
+
+.display{
+    background-color: rgb(207, 191, 191);
+    height: 8%;
+    border-style: inset;
+}
+
+input{
+    background-color: rgb(207, 191, 191);
+    height: 83%;
+    width: 98%;
+    border-style: inset;
+    text-align: center;
+    font-size: 100%;
+}
+
+button{
+    height: 90px;
+    width: 20%;
+    display: inline-block;
+    background-color: white;
+
+   /* center */
+    position: relative;
+    left: 20%;
+    transform: translate(-50%, -0%);
+    padding: 10px;
+
+    font-size: large;
+}
+
+.row1, .row2, .row3, .row4{
+   /* border:1px solid gray; */
+   margin-top: 20px;
+}
+
+.clr{
+    margin-top: 10px;
+    margin-left: 63%;
+    height: 50%;
+}
+
+.plus, .subtract, .time, .divide, .equal, .dot, .zero{
+    background-color: bisque;
+    margin-top: 20px;
+}
